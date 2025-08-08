@@ -11,23 +11,27 @@ Some revisions of the aforementioned PCBs have slightly different pin arrangemen
 /* The position of Q and B keys have been swapped */
 &kscan0 {
     input-gpios
-    = <&pro_micro  6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-    , <&pro_micro 18 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-    , <&pro_micro 19 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-    , <&pro_micro 20 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-    , <&pro_micro 21 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-    , <&pro_micro 15 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-    , <&pro_micro 14 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-    , <&pro_micro 16 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-    , <&pro_micro 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-    , <&pro_micro  1 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-    , <&pro_micro  2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-    , <&pro_micro  3 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-    , <&pro_micro  4 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-    , <&pro_micro  5 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-    , <&pro_micro  7 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-    , <&pro_micro  8 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-    , <&pro_micro  9 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            = <&gpio0 6  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio0 8  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio0 17 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio0 20 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio0 22 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio0 24 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio1 0  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio0 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio1 4  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio1 6  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio0 31 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio0 29 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio0 02 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio1 15 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio1 13 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio1 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio0 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio0 9  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio1 1  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio1 2  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&gpio1 7  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
     ;
 };
 ```
